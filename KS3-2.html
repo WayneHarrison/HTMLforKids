@@ -16,6 +16,15 @@
   <link rel="stylesheet" href="css/milligram.css.map">
   <link rel="stylesheet" href="css/milligram.min.css.map">
   <link rel="stylesheet" href="css/main.css">
+  <style type="text/css" media="screen">
+    #editor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    </style>
 </head>
 <body>
   <main class ="wrapper">
@@ -34,17 +43,43 @@
     <header class="header">
       <section class="container">
       <div class="MyJumbo-Line">
-          <h1 class="title">Choose your level.</h1>
-          <img height="50%" width="50%" class="profile" src="http://via.placeholder.com/350x350">
+          <h1 class="title">Div? Division..?</h1>
+          <img height="50%" width="50%" class="profile" src="images/div.png">
+          <p>Go <a class="link" href="learn.html">back</a></p>
         </br>
-          <a class="button button-outline" href="KS2.html" title="KS2">Beginner</a>
-          <a class="button button-outline" href="KS3.html" title="KS3">Intermediate</a>
+      </br>
       </div>
     </br>
   </br>
 </br>
     </section>
     </header>
+    <section class="container">
+      <div class="MyJumbo">
+        <h3>Whats a div?</h3>
+        <h4>A < div > is a tag that contains other tags. </h4>
+        <p>Try it in the box below.</p>
+    </div>
+  </section>
+  <section class="container">
+    <div id="editor">Start typing here! Delete this line!
+    </div>
+
+    <script src="js/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/clouds");
+        editor.session.setMode("ace/mode/html");
+    </script>
+    </section>
+  </br>
+</br>
+    <div class="MyJumbo">
+      <a class="button button-outline" href="KS3.html" title="KS3">Part 1</a>
+      <a class="button button-outline" href="KS3-3.html" title="KS3">Part 3</a>
+    </div>
+  </br>
+</br>
   </main>
 </body>
 </html>
