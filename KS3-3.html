@@ -43,8 +43,8 @@
     <header class="header">
       <section class="container">
       <div class="MyJumbo-Line">
-          <h1 class="title">Well Done!</h1>
-          <img height="50%" width="50%" class="profile" src="images/balloons.png">
+          <h1 class="title">Images</h1>
+          <img height="50%" width="50%" class="profile" src="images/img.png">
           <p>Go <a class="link" href="learn.html">back</a></p>
         </br>
       </br>
@@ -56,17 +56,31 @@
     </header>
     <section class="container">
       <div class="MyJumbo">
-        <h3>How to make a website</h3>
-        <h4>Thats the basics of making a website! Well done, you'll be making the next Facebook in no time!</h4>
+        <h3>How do you add images?</h3>
+        <h4>You add images using the < img > tag. You then have to say where to get the image from.
+        So, it would be < img src="image/yourimage" > </h4>
+        <p>Try it in the box below. Don't forget your DOCTYPE statement.</p>
     </div>
   </section>
+  <section class="container">
+    <div id="editor">Start typing here! Delete this line!
+    </div>
+
+    <script src="js/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/clouds");
+        editor.session.setMode("ace/mode/html");
+    </script>
+    </section>
   </br>
 </br>
-<div class="MyJumbo">
-  <a class="button button-outline" href="KS2-3.html" title="KS2-2">Part 3</a>
-</div>
-
-
+    <div class="MyJumbo">
+      <a class="button button-outline" href="KS3-2.html" title="KS3">Part 2</a>
+      <a class="button button-outline" href="KS3-4.html" title="KS3">Part 4</a>
+    </div>
+  </br>
+</br>
   </main>
 </body>
 </html>
